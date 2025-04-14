@@ -44,3 +44,6 @@ CMake 3.0 , C++17 compiler (GCC, Clang, MSVC) , Git , build tool (make on Linux 
 
 6. execute the program
 `.\main.exe\ (./main on linux)`
+
+<img src="screenshot.png" alt="Game Screenshot" width="500">
+
