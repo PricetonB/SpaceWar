@@ -68,7 +68,7 @@ void Game::Init(const std::string& configFile)
 			input >> fullscreen;
 
 			if (fullscreen == 1) {
-				Window.create(sf::VideoMode({width, height}), "Geometry Wars", sf::State::Windowed);
+				Window.create(sf::VideoMode({width, height}), "Space War", sf::State::Windowed);
 			}
 			else {
 				auto fullScreenModes = sf::VideoMode::getFullscreenModes();
