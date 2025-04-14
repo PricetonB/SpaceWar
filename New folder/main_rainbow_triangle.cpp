@@ -1,60 +1,9 @@
-// Assignment2.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
-#include <iostream>
-#include <memory>
-#include <fstream>
-#include <sstream>
-#include <stdio.h>
-
-#include <SFML/Graphics.hpp>
-#include <SFML/System/Vector2.hpp>
-#include "Game.h"
-
-int main()
-{
-	Game* game = new Game("../../config.txt");
-
-	game->Run();
-
-	delete game;
-	return 0;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-
 #include <SFML/Graphics.hpp>
 
 int main()
 {
     auto window = sf::RenderWindow(sf::VideoMode({1920u, 1080u}), "CMake SFML Project");
-    window.setFramerateLimit(60);
+    window.setFramerateLimit(144);
 
 	
     // create an array of 3 vertices that define a triangle primitive
@@ -89,4 +38,3 @@ int main()
         window.display();
     }
 }
-*/

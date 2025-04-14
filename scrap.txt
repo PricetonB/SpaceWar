@@ -1,0 +1,93 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+void Game::sRender()
+{
+	Window.clear();
+
+	for (auto& e : EntityManager.GetEntities()) {
+		if (e->cShape != nullptr)
+		{
+			e->cTransform->Angle += 1;
+
+			e->cShape->Shape.setPosition(e->cTransform->Position);
+			e->cShape->Shape.setRotation(sf::degrees(e->cTransform->Angle));
+			Window.draw(e->cShape->Shape);
+		}
+	}
+	Window.display();
+}
+
+
+
+rendersytem
+
+    window.clear
+    
+    
