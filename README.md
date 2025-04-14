@@ -28,7 +28,7 @@ CMake 3.0 , C++17 compiler (GCC, Clang, MSVC) , Git , build tool (make on Linux 
 ```
 
 1. clone repository
-`git clone https://github.com/PricetonB/Showdown.git`
+`git clone https://github.com/PricetonB/SpaceWar.git`
 
 2. create build directory and cd into it
 `mkdir build && cd build`
